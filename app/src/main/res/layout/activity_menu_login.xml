@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MenuLogin">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+        <ImageView
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_action_name"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="151dp" android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" android:layout_marginEnd="151dp"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/etloginusername"
+                android:hint="Username"
+                android:textColorHint="#cccccc"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etloginpassword"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:textColorHint="#cccccc"
+                android:textColor="#000000"
+                android:inputType="number"
+                android:imeOptions="actionDone"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:layout_marginTop="24dp"
+                android:text="LOGIN"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
